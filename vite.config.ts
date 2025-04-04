@@ -14,7 +14,7 @@ export default defineConfig({
           from: 'vite',
         },
       },
-      shared: ['react', 'react-dom'],
+      shared: ['react', 'react-dom', 'react-router-dom'],
     }),
   ],
   build: {
